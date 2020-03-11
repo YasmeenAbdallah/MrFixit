@@ -1,8 +1,19 @@
 .section__type-team{
-    & .team__type-info{
+    & .team__type-information{
+        h4{
+            text-align: center;
+            background-color: $color__secondary;
+            width: 50%;
+            height: 30px;
+            position: relative;
+            border-radius: 10px;
+            margin-top: -3%;
+            margin-left: 23%;
+
+        }
         p{
             padding: 10px;
-            $color:#000;
+            color:#000;
         }
         img{
             border-radius: 10px;

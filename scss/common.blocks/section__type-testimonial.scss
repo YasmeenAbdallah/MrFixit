@@ -1,4 +1,6 @@
-.testimonial__type-content{
+.section__type-testimonial{
+  padding: 10px;;
+ & .testimonial__type-content{
     font-size: 22.5px;
     line-height: 1.5;
     font-style: italic;
@@ -7,4 +9,5 @@
     & .testimonial__type-star{
         color: $color__white;
     }
+}
 }
