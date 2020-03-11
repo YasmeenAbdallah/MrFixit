@@ -6,4 +6,21 @@
     h4{
         color: $color__white;
     }
+    & .information__btn{
+       
+        background-color:$color__secondary ;
+        color:$color__white;
+        font-weight: bold;
+        border-radius: 7px;
+        padding: 15px 20px ;
+       
+    }
+    & .information__btn-request{
+        background-color:$color__white ;
+        color:#000;
+        font-weight: bold;
+        border-radius: 7px;
+        padding: 15px 20px ;
+
+    }
 }
