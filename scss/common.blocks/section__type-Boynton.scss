@@ -1,0 +1,16 @@
+.section__type-Boynton{
+   & .Boynton__type-replacment{
+       padding: 30px;
+      & .replacment__type-information{
+          padding: 100px;
+          font-size: 20px;
+            ul{
+                li{
+                    i{
+                        color: $color__secondary;
+                    }
+                }
+            }
+}
+}
+}
