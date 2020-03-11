@@ -23,15 +23,16 @@
           }
     }
     
-    .section__theme-white{
-    & .section__title{
+.section__theme-white{
+   
         h3{
             position: relative;
             font-weight: bolder;
             font-family: Poppins,sans-serif;
+            color: $color__white;
             span{
                 color: $color__secondary;
             }
         }
-    }
+    
  }   
