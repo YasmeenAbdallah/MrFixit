@@ -2,11 +2,11 @@
     margin-top: -5%;
     z-index: 2;
     position: absolute;
-    padding: 30px;
+    padding: 20px;
     h4{
         color: $color__white;
     }
-    & .information__btn{
+    & .information__type-btn{
        
         background-color:$color__secondary ;
         color:$color__white;
@@ -15,7 +15,7 @@
         padding: 15px 20px ;
        
     }
-    & .information__btn-request{
+    & .information__type-btnRequest{
         background-color:$color__white ;
         color:$color__main;
         font-weight: bold;
