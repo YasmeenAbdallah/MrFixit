@@ -16,23 +16,33 @@
         li{
             padding-bottom: 10%;
             color: $color__white;
-            a{
+            & .nav__content-btn{
                 min-height: unset!important;
                 background-color:$color__secondary ;
                 color:$color__white;
                font-weight: bold;
                 border-radius: 10px;
-                padding: 10px ;
+                padding: 5px ;
                
                
             }
-            button{
+            & .nav__content-item{
                 color: $color__secondary;
                 font-weight: bold;
+           
                
             
             }
            
         }
     }
+.content__item-dropdown{
+        height:10px;
+        background-color: $color__main;
+       
+        margin-top: -10px;
+        a{
+            color:$color__secondary;
+        }
+     }
 }
