@@ -1,7 +1,19 @@
-.section_theme_blue{
+.section_theme-blue{
     background-color:$color__main;
     color: $color__white;
-    width: 98%;
+    width: 100%;
+    p{
+        color: $color__white;
+    }
+    h3{
+        position: relative;
+        font-weight: bolder;
+        font-family: Poppins,sans-serif;
+        color: $color__white;
+        span{
+            color: $color__secondary;
+        }
+    }
     
     
     ul{
@@ -10,7 +22,8 @@
            }
           }
     }
-.section__theme-white{
+    
+    .section__theme-white{
     & .section__title{
         h3{
             position: relative;

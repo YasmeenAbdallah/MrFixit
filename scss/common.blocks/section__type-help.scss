@@ -1,0 +1,12 @@
+.section__type-help{
+    & .help__type-content{
+      margin: 50px;
+      padding: 50px;
+      ul{
+          li{
+              i{
+                  color: $color__secondary;
+              }
+          }
+      }
+}}
