@@ -1,8 +1,13 @@
 .section__type-Boynton{
    & .Boynton__type-replacment{
-       padding: 30px;
+       margin: 0px 10px;
       & .replacment__type-information{
-          padding: 100px;
+          h3{
+              span{
+                  color: $color__secondary;
+              }
+          }
+          padding: 80px;
           font-size: 20px;
             ul{
                 li{
@@ -14,4 +19,25 @@
             }
 }
 }
+ & .Boynton__type-repair{
+    h3{
+        span{
+            color: $color__secondary;
+        }
+    }
+    background-color: $color__main;
+    margin: 0px 0px;
+    padding: 80px;
+    font-size: 25px;
+    ul{
+        li{
+            font-size: 15px;
+           
+            i{
+                color: $color__secondary;
+            }
+        }
+    }
+
+   }
 }
