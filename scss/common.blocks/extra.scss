@@ -1,24 +1,19 @@
-//line hover
-.hover{
+//line
+.line {
+    
+    border-bottom: 3px solid #E5E5E5;
+    width: 15%;
+    margin-left:43%;
+    
+    &::after{
+
+    content: '';
+    display: block;
+    border-bottom: 3px solid $color__secondary;
+    margin-bottom: -8px;
+    max-width: 30px; 
+    margin-left: 50%;
+    }
+    
    
-    transition: $animate;
-    position: relative;
-    &:before,
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: -10px;
-      width: 0px;
-      height: 5px;
-      margin: 5px 0 0;
-      transition: width 0.3s ease 0s, left 0.3s ease ;
-      transition-duration: 0.75s;
-      opacity: 0;
-      background-color: darken(orange,5%);
-    }
-    &.hover-1 {
-      &:before,
-      &:after {
-        left: 0;
-      }
-    }
+}

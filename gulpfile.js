@@ -22,11 +22,6 @@ gulp.task('sass', () => {
 
 // html function
 gulp.task('htmlmin', () => {
-    return gulp.src('./*.html')
-        .pipe(htmlmin({ collapseWhitespace: true }))
-        .pipe(gulp.dest('./des'));
-});
-
 // sass watch file 
 gulp.task('watch', () => {
     gulp.watch('./scss/**/*.*', gulp.series('sass'));
