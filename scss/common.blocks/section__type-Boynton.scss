@@ -1,7 +1,7 @@
 .section__type-Boynton{
-   & .Boynton__type-replacment{
+   & .Boynton__type-white{
        margin: 0px 10px;
-      & .replacment__type-information{
+      & .Boynton__type-information{
           h3{
               span{
                   color: $color__secondary;
@@ -19,7 +19,7 @@
             }
 }
 }
- & .Boynton__type-repair{
+ & .Boynton__type-blue{
     h3{
         span{
             color: $color__secondary;
