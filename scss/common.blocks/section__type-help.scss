@@ -1,12 +1,39 @@
 .section__type-help{
     & .help__type-content{
-      margin: 50px;
+      margin: 30px;
       padding: 50px;
+     
+      font-family: Poppins,sans-serif;
+      font-weight: bold;
+      font-size: 20px;
       ul{
           li{
+            margin: 10px 0px;
+             
               i{
                   color: $color__secondary;
               }
           }
       }
-}}
+}
+  & .section__theme-white{  
+  border-radius: 3%;
+ }
+
+  form{
+     
+      input{
+       
+        margin: 10px;
+        background-color: #E5E5E5;
+        padding: 25px;
+      }
+      button{
+        background-color:$color__secondary ;
+        color:$color__white;
+        font-size: large;
+        padding: 10px 20px; ;
+      }
+}
+
+}

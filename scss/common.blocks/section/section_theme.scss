@@ -24,12 +24,13 @@
     }
     
 .section__theme-white{
+    background-color: $color__white;
    
         h3{
             position: relative;
             font-weight: bolder;
             font-family: Poppins,sans-serif;
-            color: $color__white;
+            color: #000;
             span{
                 color: $color__secondary;
             }
