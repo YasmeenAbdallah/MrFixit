@@ -20,11 +20,10 @@ gulp.task('sass', () => {
         .pipe(gulp.dest('./des'));
 });
 
-// html function
-gulp.task('htmlmin', () => {
+
 // sass watch file 
 gulp.task('watch', () => {
     gulp.watch('./scss/**/*.*', gulp.series('sass'));
 });
 //work the tasks sequence
-gulp.task('default', gulp.series('sass', 'htmlmin','watch'));
+gulp.task('default', gulp.series('sass','watch'));
