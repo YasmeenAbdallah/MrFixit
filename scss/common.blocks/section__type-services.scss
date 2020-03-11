@@ -1,14 +1,14 @@
 .section__type-services{
 
  & .service__type-content{
-     margin-left: 60px;
+    margin:10px 100px;
  }   
  & .icon-container{
     img{
         padding: 25px;
-      
-    
-    }
+        position: relative;
+     }
+   
     background-color:$color__white;
     border-radius: 100%;
     width: 105px;
@@ -18,7 +18,14 @@
    
     &:hover{
         box-shadow: 0 0 0 4px $color__secondary;
+        color:$color__secondary;
        
     }
+ p{
+        font-family: Poppins,sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+
+     }
     
 }}

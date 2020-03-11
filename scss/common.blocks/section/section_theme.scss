@@ -3,9 +3,22 @@
     color: $color__white;
     width: 98%;
     
+    
     ul{
         li{
             color: $color__white;
            }
           }
     }
+.section__theme-white{
+    & .section__title{
+        h3{
+            position: relative;
+            font-weight: bolder;
+            font-family: Poppins,sans-serif;
+            span{
+                color: $color__secondary;
+            }
+        }
+    }
+ }   
