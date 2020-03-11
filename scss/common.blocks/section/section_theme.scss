@@ -1,10 +1,11 @@
-.section_theme-blue{
+.section__theme-blue{
     background-color:$color__main;
     color: $color__white;
     width: 100%;
     p{
         color: $color__white;
         font-size: 20px;
+       
     }
     h3{
         position: relative;
@@ -12,6 +13,7 @@
         font-family: Poppins,sans-serif;
         font-size: 35px;
         color: $color__white;
+       
         span{
             color: $color__secondary;
         }

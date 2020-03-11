@@ -1,0 +1,10 @@
+.testimonial__type-content{
+    font-size: 22.5px;
+    line-height: 1.5;
+    font-style: italic;
+    color:$color__white;
+    text-align: center;
+    & .testimonial__type-star{
+        color: $color__white;
+    }
+}
