@@ -7,7 +7,9 @@
     img{
         padding: 25px;
         position: relative;
+        
      }
+
    
     background-color:$color__white;
     border-radius: 100%;
@@ -29,3 +31,14 @@
      }
     
 }}
+@media only screen and (max-width: 600px) {
+   .section__type-services{ 
+
+          & .icon-container{
+               margin-bottom: 60px; 
+            &:hover{
+                  box-shadow: 0 0 0 4px $color__secondary;
+                  color:$color__secondary;
+                 
+              }
+            }}}
