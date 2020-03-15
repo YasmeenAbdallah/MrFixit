@@ -1,6 +1,6 @@
 .section__type-Boynton{
    & .Boynton__type-white{
-       margin: 0px 10px;
+       margin: 0px 0px;
       & .Boynton__type-information{
           h3{
               span{
@@ -14,6 +14,7 @@
                     font-size: 15px;
                     i{
                         color: $color__secondary;
+                        
                     }
                 }
             }
@@ -27,7 +28,7 @@
     }
     background-color: $color__main;
     margin: 0px 0px;
-    padding: 80px;
+    padding: 20px;
     font-size: 25px;
     ul{
         li{

@@ -48,3 +48,23 @@
         }
     
  }   
+
+@media only screen and (max-width: 600px) {
+.section__theme-white{
+       p{
+           font-size: 10px;
+
+       }
+       ul{
+           li{
+               font-size: 10px;
+               span{
+                   size: 10px;
+               }
+           }
+       }
+      
+     }    
+    }
+
+
